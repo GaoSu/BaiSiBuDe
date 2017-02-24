@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  BaiSiBuDeJie
+//
+//  Created by 刘 on 16/12/10.
+//  Copyright © 2016年 LiuH. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+#import "UIView+YMExtension.h"
+#import "UIBarButtonItem+YMExtension.h"
+#import "GaoSuConst.h"
+#define GaoSColor(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
+
+#define GaoSuGlobalBg GaoSColor(233, 233, 233)
+
+#define SCREENW [UIScreen mainScreen].bounds.size.width
+#define SCREENH [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif /* PrefixHeader_pch */
